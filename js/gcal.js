@@ -2,7 +2,7 @@ import * as store from './store.js';
 
 // Set this to your Google Cloud OAuth client ID to enable live sync.
 // While empty, the feature stays dormant and the app is fully usable without it.
-export const CLIENT_ID = '';
+export const CLIENT_ID = '27367016376-o2fm180cvalqkr30bjnrc3he0pdhmmc3. apps.googleusercontent.com';
 
 export function isConfigured() { return CLIENT_ID.trim().length > 0; }
 
